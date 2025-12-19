@@ -4,32 +4,32 @@ export default function Home() {
 
       {/* Top Meta Info */}
       <div className="mb-12 font-mono text-sm">
-        <div className="text-cyber-gray mb-2">ETA:</div>
+        <div className="text-cyber-gray mb-2">STATUS:</div>
         <div className="text-cyber-green text-lg font-bold">
-          3M millennia. Heat death of universe vibes.
+          AVAILABLE FOR FREELANCE // REMOTE WORLDWIDE
         </div>
       </div>
 
       {/* Hero Section */}
       <div className="mb-16">
         <h1 className="text-6xl md:text-8xl lg:text-9xl font-bold tracking-tighter mb-6 text-white">
-          THE BUTTON.
+          DEVELOPER.
         </h1>
         <p className="text-xl md:text-2xl text-cyber-gray font-mono">
-          One button. One goal. Millions of humans.
+          Building systems. Crafting experiences. Solving problems.
         </p>
       </div>
 
       {/* Grid Content */}
       <div className="mb-16">
-        <div className="text-cyber-gray mb-4 font-mono">{'// WHY?'}</div>
+        <div className="text-cyber-gray mb-4 font-mono">{'// WHAT I DO'}</div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           {/* Item 01 */}
           <div className="border border-cyber-charcoal p-6 flex items-start group hover:border-cyber-green transition-colors">
             <span className="text-cyber-green font-bold mr-4 text-lg group-hover:text-glow">[01]</span>
             <p className="text-cyber-gray font-mono text-sm leading-relaxed">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+              Full-stack development with modern frameworks and technologies. Building scalable web applications with clean architecture and responsive design principles.
             </p>
           </div>
 
@@ -37,7 +37,7 @@ export default function Home() {
           <div className="border border-cyber-charcoal p-6 flex items-start group hover:border-cyber-green transition-colors">
             <span className="text-cyber-green font-bold mr-4 text-lg group-hover:text-glow">[02]</span>
             <p className="text-cyber-gray font-mono text-sm leading-relaxed">
-              Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+              Performance optimization and system design. Crafting efficient solutions that scale from prototype to production with millions of users.
             </p>
           </div>
 
@@ -45,7 +45,7 @@ export default function Home() {
           <div className="border border-cyber-charcoal p-6 flex items-start group hover:border-cyber-green transition-colors">
             <span className="text-cyber-green font-bold mr-4 text-lg group-hover:text-glow">[03]</span>
             <p className="text-cyber-gray font-mono text-sm leading-relaxed">
-              Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+              UI/UX implementation with attention to detail. Creating intuitive interfaces that bridge functionality and aesthetics with pixel-perfect precision.
             </p>
           </div>
 
@@ -53,17 +53,31 @@ export default function Home() {
           <div className="border border-cyber-charcoal p-6 flex items-start group hover:border-cyber-green transition-colors">
             <span className="text-cyber-green font-bold mr-4 text-lg group-hover:text-glow">[04]</span>
             <p className="text-cyber-gray font-mono text-sm leading-relaxed">
-              Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet.
+              DevOps and cloud infrastructure. Implementing CI/CD pipelines, containerization, and automated deployment strategies for reliable delivery.
             </p>
           </div>
         </div>
       </div>
 
-      {/* Target Metric */}
+      {/* Portfolio Metrics */}
       <div className="border-t border-cyber-charcoal pt-8 mt-auto">
-        <div className="text-cyber-gray text-xs tracking-widest uppercase mb-2">TARGET</div>
-        <div className="text-4xl md:text-6xl lg:text-7xl font-bold text-cyber-green font-mono">
-          1,000,000,000,000
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
+          <div>
+            <div className="text-cyber-gray text-xs tracking-widest uppercase mb-2">PROJECTS</div>
+            <div className="text-3xl md:text-4xl font-bold text-cyber-green font-mono">50+</div>
+          </div>
+          <div>
+            <div className="text-cyber-gray text-xs tracking-widest uppercase mb-2">EXPERIENCE</div>
+            <div className="text-3xl md:text-4xl font-bold text-cyber-green font-mono">5Y</div>
+          </div>
+          <div>
+            <div className="text-cyber-gray text-xs tracking-widest uppercase mb-2">CLIENTS</div>
+            <div className="text-3xl md:text-4xl font-bold text-cyber-green font-mono">30+</div>
+          </div>
+          <div>
+            <div className="text-cyber-gray text-xs tracking-widest uppercase mb-2">TECHNOLOGIES</div>
+            <div className="text-3xl md:text-4xl font-bold text-cyber-green font-mono">25+</div>
+          </div>
         </div>
       </div>
 

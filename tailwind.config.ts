@@ -16,7 +16,7 @@ export default {
         'cyber-green': '#00ff41',
         'cyber-green-dark': '#00cc33',
         'cyber-grid': '#2a2a2a',
-        'cyber-gray': '#888888',
+        'cyber-gray': '#a0a0a0',
       },
       fontFamily: {
         mono: ['var(--font-jetbrains-mono)', 'monospace'],
