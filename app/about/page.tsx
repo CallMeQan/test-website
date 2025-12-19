@@ -35,7 +35,7 @@ export default function About() {
               </li>
               <li className="flex items-center">
                 <span className="text-cyber-green mr-2">&gt;</span>
-                MAIN_STACK: <span className="text-white ml-2">[Typescript, Rust, WebGL]</span>
+                MAIN_STACK: <span className="text-white ml-2">[TypeScript, Rust, WebGL]</span>
               </li>
             </ul>
           </div>
@@ -46,7 +46,7 @@ export default function About() {
           <h2 className="text-cyber-gray font-mono mb-6 text-sm">{'// COMMUNITY & CONTACT'}</h2>
 
           <div className="grid gap-4">
-            <a href="#" className="group block">
+            <a href="https://discord.com" className="group block" aria-label="Connect on Discord">
               <div className="border border-cyber-charcoal p-4 flex items-center justify-between hover:border-cyber-green transition-all hover:bg-cyber-green/5">
                 <div className="flex items-center">
                   <span className="text-cyber-green mr-4 text-xl group-hover:text-glow">@</span>
@@ -56,7 +56,7 @@ export default function About() {
               </div>
             </a>
 
-            <a href="#" className="group block">
+            <a href="https://github.com" className="group block" aria-label="Follow on GitHub">
               <div className="border border-cyber-charcoal p-4 flex items-center justify-between hover:border-cyber-green transition-all hover:bg-cyber-green/5">
                 <div className="flex items-center">
                   <span className="text-cyber-green mr-4 text-xl group-hover:text-glow">~</span>
@@ -66,7 +66,7 @@ export default function About() {
               </div>
             </a>
 
-            <a href="#" className="group block">
+            <a href="https://reddit.com" className="group block" aria-label="Message on Reddit">
               <div className="border border-cyber-charcoal p-4 flex items-center justify-between hover:border-cyber-green transition-all hover:bg-cyber-green/5">
                 <div className="flex items-center">
                   <span className="text-cyber-green mr-4 text-xl group-hover:text-glow">#</span>
@@ -76,7 +76,7 @@ export default function About() {
               </div>
             </a>
 
-            <a href="#" className="group block">
+            <a href="mailto:hello@example.com" className="group block" aria-label="Send Email">
               <div className="border border-cyber-charcoal p-4 flex items-center justify-between hover:border-cyber-green transition-all hover:bg-cyber-green/5">
                 <div className="flex items-center">
                   <span className="text-cyber-green mr-4 text-xl group-hover:text-glow">?</span>
