@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 :root {
-  --background: #0a0a0a;
+  --background: #050505;
   --foreground: #00ff41;
 }
 
@@ -19,7 +19,6 @@ body {
   overflow-x: hidden;
   background-color: var(--background);
   color: var(--foreground);
-  font-family: 'Courier New', monospace;
 }
 
 /* Cyberpunk Grid Overlay */
@@ -30,32 +29,13 @@ body::before {
   left: 0;
   width: 100%;
   height: 100%;
+  /* Thin dark-grey lines */
   background-image: 
-    linear-gradient(rgba(42, 42, 42, 0.3) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(42, 42, 42, 0.3) 1px, transparent 1px);
+    linear-gradient(rgba(50, 50, 50, 0.3) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(50, 50, 50, 0.3) 1px, transparent 1px);
   background-size: 50px 50px;
   pointer-events: none;
   z-index: 0;
-}
-
-/* Scanline effect */
-body::after {
-  content: '';
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: repeating-linear-gradient(
-    0deg,
-    rgba(0, 0, 0, 0.1) 0px,
-    rgba(0, 0, 0, 0.1) 1px,
-    transparent 1px,
-    transparent 2px
-  );
-  pointer-events: none;
-  z-index: 9999;
-  opacity: 0.1;
 }
 
 .content-wrapper {
@@ -63,123 +43,13 @@ body::after {
   z-index: 1;
 }
 
-/* Glitch effect for headers */
-@keyframes glitch {
-  0% {
-    text-shadow: 2px 2px 0 #00ff41, -2px -2px 0 #00ff41;
+/* Utilities for text glow and borders */
+@layer utilities {
+  .text-glow {
+    text-shadow: 0 0 5px rgba(0, 255, 65, 0.5);
   }
-  25% {
-    text-shadow: -2px 2px 0 #00ff41, 2px -2px 0 #00ff41;
-  }
-  50% {
-    text-shadow: 2px -2px 0 #00ff41, -2px 2px 0 #00ff41;
-  }
-  75% {
-    text-shadow: -2px -2px 0 #00ff41, 2px 2px 0 #00ff41;
-  }
-  100% {
-    text-shadow: 2px 2px 0 #00ff41, -2px -2px 0 #00ff41;
-  }
-}
 
-.glitch {
-  animation: glitch 0.3s infinite;
-}
-
-/* Terminal cursor blink */
-@keyframes blink {
-  0%, 49% {
-    opacity: 1;
-  }
-  50%, 100% {
-    opacity: 0;
-  }
-}
-
-.cursor {
-  animation: blink 1s infinite;
-}
-
-/* Neon glow effect */
-.neon-glow {
-  text-shadow: 
-    0 0 5px #00ff41,
-    0 0 10px #00ff41,
-    0 0 20px #00ff41,
-    0 0 40px #00ff41;
-}
-
-.neon-border {
-  box-shadow: 
-    0 0 5px #00ff41,
-    0 0 10px #00ff41,
-    inset 0 0 5px #00ff41;
-  border: 1px solid #00ff41;
-}
-
-/* Button styles */
-.cyber-button {
-  position: relative;
-  padding: 0.75rem 2rem;
-  background: transparent;
-  border: 2px solid #00ff41;
-  color: #00ff41;
-  font-family: 'Courier New', monospace;
-  font-weight: bold;
-  cursor: pointer;
-  transition: all 0.3s ease;
-  text-transform: uppercase;
-  letter-spacing: 2px;
-}
-
-.cyber-button::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 0;
-  height: 100%;
-  background: #00ff41;
-  transition: width 0.3s ease;
-  z-index: -1;
-}
-
-.cyber-button:hover {
-  color: #0a0a0a;
-}
-
-.cyber-button:hover::before {
-  width: 100%;
-}
-
-/* Card styles */
-.cyber-card {
-  background: rgba(26, 26, 26, 0.8);
-  border: 1px solid #00ff41;
-  padding: 1.5rem;
-  box-shadow: 
-    0 0 10px rgba(0, 255, 65, 0.2),
-    inset 0 0 10px rgba(0, 255, 65, 0.05);
-}
-
-/* Status indicator */
-.status-online {
-  display: inline-block;
-  width: 10px;
-  height: 10px;
-  background: #00ff41;
-  border-radius: 50%;
-  box-shadow: 0 0 10px #00ff41;
-  animation: pulse 2s infinite;
-}
-
-@keyframes pulse {
-  0%, 100% {
-    opacity: 1;
-    transform: scale(1);
-  }
-  50% {
-    opacity: 0.5;
-    transform: scale(1.1);
+  .border-glow {
+    box-shadow: 0 0 5px rgba(0, 255, 65, 0.3);
   }
 }
