@@ -44,7 +44,7 @@ export default function Home() {
                 <span>95%</span>
               </div>
               <div className="h-2 bg-cyber-charcoal border border-cyber-green">
-                <div className="h-full bg-cyber-green neon-glow" style={{width: '95%'}}></div>
+                <div className="h-full bg-cyber-green neon-glow w-[95%]"></div>
               </div>
             </div>
             <div>
@@ -53,7 +53,7 @@ export default function Home() {
                 <span>90%</span>
               </div>
               <div className="h-2 bg-cyber-charcoal border border-cyber-green">
-                <div className="h-full bg-cyber-green neon-glow" style={{width: '90%'}}></div>
+                <div className="h-full bg-cyber-green neon-glow w-[90%]"></div>
               </div>
             </div>
             <div>
@@ -62,7 +62,7 @@ export default function Home() {
                 <span>85%</span>
               </div>
               <div className="h-2 bg-cyber-charcoal border border-cyber-green">
-                <div className="h-full bg-cyber-green neon-glow" style={{width: '85%'}}></div>
+                <div className="h-full bg-cyber-green neon-glow w-[85%]"></div>
               </div>
             </div>
           </div>
