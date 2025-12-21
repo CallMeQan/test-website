@@ -69,7 +69,7 @@ export default function Projects() {
 
             {/* Placeholder Image Area */}
             <div className="aspect-video bg-cyber-charcoal/50 border border-cyber-charcoal mb-6 flex items-center justify-center overflow-hidden relative">
-              <div className="absolute inset-0 bg-[linear-gradient(45deg,transparent_25%,rgba(255,255,255,0.05)_50%,transparent_75%)] bg-[length:250%_250%] animate-[shimmer_3s_infinite]"></div>
+              <div className="absolute inset-0 bg-[linear-gradient(45deg,transparent_25%,rgba(255,255,255,0.05)_50%,transparent_75%)] bg-[length:250%_250%] animate-pulse"></div>
               <span className="text-cyber-gray font-mono text-xs">NO_SIGNAL_INPUT</span>
             </div>
 

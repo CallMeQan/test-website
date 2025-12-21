@@ -49,7 +49,7 @@ export default function About() {
             <a href="https://discord.com" className="group block" aria-label="Connect on Discord">
               <div className="border border-cyber-charcoal p-4 flex items-center justify-between hover:border-cyber-green transition-all hover:bg-cyber-green/5">
                 <div className="flex items-center">
-                  <span className="text-cyber-green mr-4 text-xl group-hover:text-glow">@</span>
+                  <span className="text-cyber-green mr-4 text-xl group-hover:text-glow" aria-hidden="true">@</span>
                   <span className="text-white font-mono group-hover:text-cyber-green transition-colors">Discord</span>
                 </div>
                 <span className="text-cyber-gray text-xs group-hover:text-cyber-green">&gt; CONNECT</span>
@@ -59,7 +59,7 @@ export default function About() {
             <a href="https://github.com" className="group block" aria-label="Follow on GitHub">
               <div className="border border-cyber-charcoal p-4 flex items-center justify-between hover:border-cyber-green transition-all hover:bg-cyber-green/5">
                 <div className="flex items-center">
-                  <span className="text-cyber-green mr-4 text-xl group-hover:text-glow">~</span>
+                  <span className="text-cyber-green mr-4 text-xl group-hover:text-glow" aria-hidden="true">~</span>
                   <span className="text-white font-mono group-hover:text-cyber-green transition-colors">GitHub</span>
                 </div>
                 <span className="text-cyber-gray text-xs group-hover:text-cyber-green">&gt; FOLLOW</span>
@@ -69,7 +69,7 @@ export default function About() {
             <a href="https://reddit.com" className="group block" aria-label="Message on Reddit">
               <div className="border border-cyber-charcoal p-4 flex items-center justify-between hover:border-cyber-green transition-all hover:bg-cyber-green/5">
                 <div className="flex items-center">
-                  <span className="text-cyber-green mr-4 text-xl group-hover:text-glow">#</span>
+                  <span className="text-cyber-green mr-4 text-xl group-hover:text-glow" aria-hidden="true">#</span>
                   <span className="text-white font-mono group-hover:text-cyber-green transition-colors">Reddit</span>
                 </div>
                 <span className="text-cyber-gray text-xs group-hover:text-cyber-green">&gt; MESSAGE</span>
@@ -79,7 +79,7 @@ export default function About() {
             <a href="mailto:hello@example.com" className="group block" aria-label="Send Email">
               <div className="border border-cyber-charcoal p-4 flex items-center justify-between hover:border-cyber-green transition-all hover:bg-cyber-green/5">
                 <div className="flex items-center">
-                  <span className="text-cyber-green mr-4 text-xl group-hover:text-glow">?</span>
+                  <span className="text-cyber-green mr-4 text-xl group-hover:text-glow" aria-hidden="true">?</span>
                   <span className="text-white font-mono group-hover:text-cyber-green transition-colors">Email</span>
                 </div>
                 <span className="text-cyber-gray text-xs group-hover:text-cyber-green">&gt; SEND</span>

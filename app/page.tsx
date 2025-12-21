@@ -63,7 +63,7 @@ export default function Home() {
         </div>
       </div>
 
-      {/* Target Metric */}
+      {/* Portfolio Metrics */}
       <div className="border-t border-cyber-charcoal pt-8 mt-auto">
         <div className="text-cyber-gray text-xs tracking-widest uppercase mb-2">YEARS_EXP</div>
         <div className="text-4xl md:text-6xl lg:text-7xl font-bold text-cyber-green font-mono">
