@@ -46,7 +46,7 @@ export default function About() {
           <h2 className="text-cyber-gray font-mono mb-6 text-sm">{'// COMMUNITY & CONTACT'}</h2>
 
           <div className="grid gap-4">
-            <a href="https://discord.com" target="_blank" rel="noopener noreferrer" className="group block" aria-label="Connect on Discord">
+            <a href="https://discord.com" className="group block" aria-label="Connect on Discord">
               <div className="border border-cyber-charcoal p-4 flex items-center justify-between hover:border-cyber-green transition-all hover:bg-cyber-green/5">
                 <div className="flex items-center">
                   <span className="text-cyber-green mr-4 text-xl group-hover:text-glow" aria-hidden="true">@</span>
@@ -56,7 +56,7 @@ export default function About() {
               </div>
             </a>
 
-            <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="group block" aria-label="Follow on GitHub">
+            <a href="https://github.com" className="group block" aria-label="Follow on GitHub">
               <div className="border border-cyber-charcoal p-4 flex items-center justify-between hover:border-cyber-green transition-all hover:bg-cyber-green/5">
                 <div className="flex items-center">
                   <span className="text-cyber-green mr-4 text-xl group-hover:text-glow" aria-hidden="true">~</span>
@@ -66,7 +66,7 @@ export default function About() {
               </div>
             </a>
 
-            <a href="https://reddit.com" target="_blank" rel="noopener noreferrer" className="group block" aria-label="Message on Reddit">
+            <a href="https://reddit.com" className="group block" aria-label="Message on Reddit">
               <div className="border border-cyber-charcoal p-4 flex items-center justify-between hover:border-cyber-green transition-all hover:bg-cyber-green/5">
                 <div className="flex items-center">
                   <span className="text-cyber-green mr-4 text-xl group-hover:text-glow" aria-hidden="true">#</span>
@@ -76,7 +76,7 @@ export default function About() {
               </div>
             </a>
 
-            <a href="mailto:contact@example.com" className="group block" aria-label="Send an email">
+            <a href="mailto:hello@example.com" className="group block" aria-label="Send Email">
               <div className="border border-cyber-charcoal p-4 flex items-center justify-between hover:border-cyber-green transition-all hover:bg-cyber-green/5">
                 <div className="flex items-center">
                   <span className="text-cyber-green mr-4 text-xl group-hover:text-glow" aria-hidden="true">?</span>

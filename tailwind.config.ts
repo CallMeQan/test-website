@@ -18,6 +18,15 @@ export default {
         'cyber-grid': '#2a2a2a',
         'cyber-gray': '#a0a0a0',
       },
+      keyframes: {
+        shimmer: {
+          '0%': { transform: 'translateX(-100%)' },
+          '100%': { transform: 'translateX(100%)' },
+        },
+      },
+      animation: {
+        shimmer: 'shimmer 2s infinite',
+      },
       fontFamily: {
         mono: ['var(--font-jetbrains-mono)', 'monospace'],
       },
