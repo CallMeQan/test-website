@@ -31,8 +31,10 @@ export default function Navbar() {
             </Link>
           </div>
           <div className="hidden sm:block">
+            {/* Static decorative status indicator; not connected to a real online user count */}
             <div className="border border-cyber-green px-2 py-1 text-xs text-cyber-green">
-              5 ONLINE
+              <span aria-hidden="true">SYSTEM: ONLINE</span>
+              <span className="sr-only">Status indicator: System is online</span>
             </div>
           </div>
         </div>

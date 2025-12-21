@@ -16,7 +16,16 @@ export default {
         'cyber-green': '#00ff41',
         'cyber-green-dark': '#00cc33',
         'cyber-grid': '#2a2a2a',
-        'cyber-gray': '#888888',
+        'cyber-gray': '#a0a0a0',
+      },
+      keyframes: {
+        shimmer: {
+          '0%': { transform: 'translateX(-100%)' },
+          '100%': { transform: 'translateX(100%)' },
+        },
+      },
+      animation: {
+        shimmer: 'shimmer 2s infinite',
       },
       fontFamily: {
         mono: ['var(--font-jetbrains-mono)', 'monospace'],
